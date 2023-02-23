@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         <p>Harga Crypto dalam Rupiah hari ini</p>
       </div>
       <div>
-        <input type="text" placeholder="Cari disini" />
+        <input className="p-2" type="text" placeholder="Cari disini" />
       </div>
     </div>
   );
