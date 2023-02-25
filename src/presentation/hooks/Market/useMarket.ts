@@ -3,7 +3,6 @@ import axios from "../../../adapter/src/infrastructures/Http";
 
 export function useMarket() {
   const [data, setData] = useState([]);
-  const [price, setPrice] = useState([]);
 
   const getStockMarket = () => {
     axios
