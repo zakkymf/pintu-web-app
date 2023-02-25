@@ -9,6 +9,7 @@ const Table: React.FC = () => {
   useEffect(() => {
     getPrice();
     getStockMarket();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
