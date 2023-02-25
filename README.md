@@ -2,6 +2,10 @@
 
 pintu-web-app is repository for the solutions of assignment to PINTU hiring process.
 
+## Demo
+
+You can check final result [here](https://reliable-bonbon-b934fa.netlify.app/)
+
 ## Getting Started
 
 To get start this repo, just following these instructions below.
@@ -68,6 +72,7 @@ src
 ## Build With
 - [ReactJS](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/) for CSS
+- [Netlify](https://www.netlify.com/)
 
 ## What's Next
 
