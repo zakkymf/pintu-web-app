@@ -1,17 +1,9 @@
 import React from "react";
 import "./App.css";
-import { FilterBox } from "./components/FilterBox";
-import { Header } from "./components/Header";
-import { Table } from "./components/Table";
+import { Market } from "./presentation/pages/Market";
 
 function App() {
-  return (
-    <div className=" bg-black px-20 pb-6">
-      <Header />
-      <FilterBox />
-      <Table />
-    </div>
-  );
+  return <Market />;
 }
 
 export default App;
