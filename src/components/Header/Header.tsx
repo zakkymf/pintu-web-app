@@ -1,14 +1,13 @@
 import React from "react";
+import { SearchBar } from "../SearchBar";
 
 const Header: React.FC = () => {
   return (
-    <div className="flex justify-between">
-      <div>
-        <p>Harga Crypto dalam Rupiah hari ini</p>
-      </div>
-      <div>
-        <input className="p-2" type="text" placeholder="Cari disini" />
-      </div>
+    <div className="flex justify-between items-center">
+      <p className="text-lg font-semibold text-white">
+        Harga Crypto dalam Rupiah hari ini
+      </p>
+      <SearchBar />
     </div>
   );
 };
