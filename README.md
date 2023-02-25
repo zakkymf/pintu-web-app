@@ -72,7 +72,7 @@ src
 ## Build With
 - [ReactJS](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/) for CSS
-- [Netlify](https://www.netlify.com/)
+- [Netlify](https://www.netlify.com/) for Server
 
 ## What's Next
 
