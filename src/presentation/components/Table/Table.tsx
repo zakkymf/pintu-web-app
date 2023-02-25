@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useMarket } from "../../hooks/Market/useMarket";
 import Content from "./Content";
 import Head from "./Head";
 
-const item = {
-  name: "test",
-};
-
 const Table: React.FC = () => {
+  const { data, getStockMarket, getPrice } = useMarket();
+
+  useEffect(() => {
+    getPrice();
+    getStockMarket();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
-    <div className="px-36 bg-black text-white">
+    <div className=" bg-black text-white">
       <table className="table-auto w-full border-collapse">
         <thead>
           <tr>
@@ -22,7 +27,7 @@ const Table: React.FC = () => {
           </tr>
         </thead>
         <tbody>
-          <Content item={item} />
+          <Content item={data} />
         </tbody>
       </table>
     </div>
